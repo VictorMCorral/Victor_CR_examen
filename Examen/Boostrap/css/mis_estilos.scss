@@ -1,3 +1,7 @@
+@use "_col_x2" as *;
+
+@include generar_columnas(2);
+
 .cont_img_princ{
     img{
         width: 100%;
