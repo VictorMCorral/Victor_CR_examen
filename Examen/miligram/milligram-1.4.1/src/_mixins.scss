@@ -1,0 +1,15 @@
+@mixin generar_columnas($maxColumns){
+    .row_ejemplo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0;
+        width: 100%;
+        @for $i from 1 through $maxColumns {
+            .col-#{$i}{
+                flex: 0 0 calc(100% / $maxColumns * $i);
+                width: calc(100% / $maxColumns * $i);
+            }
+        }
+    }
+}

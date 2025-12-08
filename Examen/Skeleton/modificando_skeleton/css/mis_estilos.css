@@ -1220,27 +1220,19 @@ body.oscuro a {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 20px;
 }
 .gallery.cant-1 img {
-  flex: 0 0 calc(100% / 1 - 15px);
-  width: calc(100% / 1 - 15px);
+  flex: 0 0 calc(100% / 1 - 20px);
+  width: calc(100% / 1 - 20px);
 }
 .gallery.cant-2 img {
-  flex: 0 0 calc(100% / 2 - 15px);
-  width: calc(100% / 2 - 15px);
+  flex: 0 0 calc(100% / 2 - 20px);
+  width: calc(100% / 2 - 20px);
 }
 .gallery.cant-3 img {
-  flex: 0 0 calc(100% / 3 - 15px);
-  width: calc(100% / 3 - 15px);
-}
-.gallery.cant-4 img {
-  flex: 0 0 calc(100% / 4 - 15px);
-  width: calc(100% / 4 - 15px);
-}
-.gallery.cant-5 img {
-  flex: 0 0 calc(100% / 5 - 15px);
-  width: calc(100% / 5 - 15px);
+  flex: 0 0 calc(100% / 3 - 20px);
+  width: calc(100% / 3 - 20px);
 }
 
 a {
