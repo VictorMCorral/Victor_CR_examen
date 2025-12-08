@@ -570,62 +570,276 @@ img {
   float: right;
 }
 
+nav {
+  height: auto;
+  border-bottom: 1px solid darkgray;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-top: 0.5rem;
+}
+nav .nav-icon {
+  display: inline;
+}
+nav .nav-list {
+  display: none;
+}
+nav .nav-burger {
+  display: flex;
+  font-size: 10px;
+  justify-content: flex-end;
+}
+
+hr {
+  margin: 0.5rem;
+}
+
+@media (min-width: 1200px) {
+  nav .nav-list {
+    display: flex;
+    width: 100%;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    justify-content: flex-end;
+  }
+  nav .nav-list li {
+    border: 2px solid darkgray;
+    box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    display: inline;
+  }
+  nav .nav-burger {
+    display: none;
+  }
+}
+.itinerario .stars {
+  display: flex;
+  flex-direction: column;
+}
+
+.row_ejemplo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  width: 100%;
+}
+
 .col-1 {
   flex: 0 0 calc(100% / $maxColumns * $i);
   width: calc(100% / $maxColumns * $i);
+  margin-bottom: 0;
 }
 
 .col-2 {
   flex: 0 0 calc(100% / $maxColumns * $i);
   width: calc(100% / $maxColumns * $i);
+  margin-bottom: 0;
 }
 
 .col-3 {
   flex: 0 0 calc(100% / $maxColumns * $i);
   width: calc(100% / $maxColumns * $i);
+  margin-bottom: 0;
 }
 
 .col-4 {
   flex: 0 0 calc(100% / $maxColumns * $i);
   width: calc(100% / $maxColumns * $i);
+  margin-bottom: 0;
 }
 
 .col-5 {
   flex: 0 0 calc(100% / $maxColumns * $i);
   width: calc(100% / $maxColumns * $i);
+  margin-bottom: 0;
 }
 
 .col-6 {
   flex: 0 0 calc(100% / $maxColumns * $i);
   width: calc(100% / $maxColumns * $i);
+  margin-bottom: 0;
 }
 
 .col-7 {
   flex: 0 0 calc(100% / $maxColumns * $i);
   width: calc(100% / $maxColumns * $i);
+  margin-bottom: 0;
 }
 
 .col-8 {
   flex: 0 0 calc(100% / $maxColumns * $i);
   width: calc(100% / $maxColumns * $i);
+  margin-bottom: 0;
 }
 
 .col-9 {
   flex: 0 0 calc(100% / $maxColumns * $i);
   width: calc(100% / $maxColumns * $i);
+  margin-bottom: 0;
 }
 
 .col-10 {
   flex: 0 0 calc(100% / $maxColumns * $i);
   width: calc(100% / $maxColumns * $i);
+  margin-bottom: 0;
 }
 
 .col-11 {
   flex: 0 0 calc(100% / $maxColumns * $i);
   width: calc(100% / $maxColumns * $i);
+  margin-bottom: 0;
 }
 
 .col-12 {
   flex: 0 0 calc(100% / $maxColumns * $i);
   width: calc(100% / $maxColumns * $i);
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .col-1-md {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-2-md {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-3-md {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-4-md {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-5-md {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-6-md {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-7-md {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-8-md {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-9-md {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-10-md {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-11-md {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-12-md {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .col-1-xl {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-2-xl {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-3-xl {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-4-xl {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-5-xl {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-6-xl {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-7-xl {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-8-xl {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-9-xl {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-10-xl {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-11-xl {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
+
+  .col-12-xl {
+    flex: 0 0 calc(100% / $maxColumns * $i);
+    width: calc(100% / $maxColumns * $i);
+    margin-bottom: 0;
+  }
 }
