@@ -1344,6 +1344,37 @@ body.oscuro a {
     margin-left: 86.6666666667%;
   }
 }
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.gallery img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+.gallery.cant-2 img {
+  flex: 0 0 calc((100% / 2) - 10px);
+  width: calc((100% / 2) - 10px);
+}
+.gallery.cant-3 img {
+  flex: 0 0 calc((100% / 3) - 10px);
+  width: calc((100% / 3) - 10px);
+}
+.gallery.cant-4 img {
+  flex: 0 0 calc((100% / 4) - 10px);
+  width: calc((100% / 4) - 10px);
+}
+.gallery.cant-5 img {
+  flex: 0 0 calc((100% / 5) - 10px);
+  width: calc((100% / 5) - 10px);
+}
+
 a {
   color: var(--colorPrincipal);
 }

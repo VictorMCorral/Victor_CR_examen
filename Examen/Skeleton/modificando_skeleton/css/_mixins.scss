@@ -40,3 +40,15 @@
   }
 }
 
+@mixin image-gallery($maxNum, $gap: 10px) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $gap;
+
+  @for $i from 1 through $maxNum {
+    &.cant-#{$i} img {
+      flex: 0 0 calc((100% / #{$i}) - #{$gap});
+      width: calc((100% / #{$i}) - #{$gap});
+    }
+  }
+}
