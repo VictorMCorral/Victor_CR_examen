@@ -26,3 +26,17 @@
   }
 } 
 
+@mixin generar_botones(){
+  $colores : ("sucess" : "green",
+              "danger" : "red",
+              "warning" : "yellow",
+              "normal" : "blue",
+              "info" : "lightblue");
+
+  @each $nombre, $color in $colores {
+    .btn-#{$nombre}{
+      background-color: #{$color};
+    }
+  }
+}
+

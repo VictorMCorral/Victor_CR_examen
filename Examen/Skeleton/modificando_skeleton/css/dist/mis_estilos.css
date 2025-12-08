@@ -1355,3 +1355,23 @@ ul.nav_horizontal li {
 ul.nav_vertical li {
   display: inline;
 }
+
+.btn-sucess {
+  background-color: green;
+}
+
+.btn-danger {
+  background-color: red;
+}
+
+.btn-warning {
+  background-color: yellow;
+}
+
+.btn-normal {
+  background-color: blue;
+}
+
+.btn-info {
+  background-color: lightblue;
+}

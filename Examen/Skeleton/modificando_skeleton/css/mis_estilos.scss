@@ -6,3 +6,6 @@
 @use 'misc';
 @use 'nav';  
 
+@use "_mixins" as *;
+
+@include generar_botones();
