@@ -1,5 +1,0 @@
-@use "_mixins" as *;
-
-.gallery {
-    @include image-gallery(3, 20px);
-}
