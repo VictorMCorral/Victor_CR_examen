@@ -1,0 +1,6 @@
+@use "mixins" as *;
+@use "itinerario";
+@use "nav";
+
+
+@include generar_columnas(12);
