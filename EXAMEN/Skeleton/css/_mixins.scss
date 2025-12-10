@@ -1,0 +1,7 @@
+@mixin va_a_desaparecer($columna){
+    .col-#{$columna}-desaparece-md{
+        display: none;
+    }
+}
+
+//PENDIENTE DE CONTINUAR

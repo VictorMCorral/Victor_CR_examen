@@ -40,9 +40,14 @@
 .column,
 .columns {
   width: 100%;
-  flex: 0 0 auto;
   /*float: left;*/
   box-sizing: border-box; }
+
+  /*AUMENTO ACTIVIDAD 3*/ 
+  .row{
+    display: flex;
+  }
+
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
