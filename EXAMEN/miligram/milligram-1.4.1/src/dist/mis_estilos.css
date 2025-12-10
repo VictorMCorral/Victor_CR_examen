@@ -1,0 +1,55 @@
+.row_ejemplo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  width: 100%;
+}
+.row_ejemplo .col-1 {
+  flex: 0 0 calc(100%/($maxColumns * $i));
+  width: calc(100%/($maxColumns * $i));
+}
+.row_ejemplo .col-2 {
+  flex: 0 0 calc(100%/($maxColumns * $i));
+  width: calc(100%/($maxColumns * $i));
+}
+.row_ejemplo .col-3 {
+  flex: 0 0 calc(100%/($maxColumns * $i));
+  width: calc(100%/($maxColumns * $i));
+}
+.row_ejemplo .col-4 {
+  flex: 0 0 calc(100%/($maxColumns * $i));
+  width: calc(100%/($maxColumns * $i));
+}
+.row_ejemplo .col-5 {
+  flex: 0 0 calc(100%/($maxColumns * $i));
+  width: calc(100%/($maxColumns * $i));
+}
+.row_ejemplo .col-6 {
+  flex: 0 0 calc(100%/($maxColumns * $i));
+  width: calc(100%/($maxColumns * $i));
+}
+.row_ejemplo .col-7 {
+  flex: 0 0 calc(100%/($maxColumns * $i));
+  width: calc(100%/($maxColumns * $i));
+}
+.row_ejemplo .col-8 {
+  flex: 0 0 calc(100%/($maxColumns * $i));
+  width: calc(100%/($maxColumns * $i));
+}
+.row_ejemplo .col-9 {
+  flex: 0 0 calc(100%/($maxColumns * $i));
+  width: calc(100%/($maxColumns * $i));
+}
+.row_ejemplo .col-10 {
+  flex: 0 0 calc(100%/($maxColumns * $i));
+  width: calc(100%/($maxColumns * $i));
+}
+.row_ejemplo .col-11 {
+  flex: 0 0 calc(100%/($maxColumns * $i));
+  width: calc(100%/($maxColumns * $i));
+}
+.row_ejemplo .col-12 {
+  flex: 0 0 calc(100%/($maxColumns * $i));
+  width: calc(100%/($maxColumns * $i));
+}
