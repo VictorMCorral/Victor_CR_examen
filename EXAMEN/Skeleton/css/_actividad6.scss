@@ -1,0 +1,15 @@
+.row-4-8{
+    margin: auto;
+    
+    &>div:first-child{
+        height: 500px;
+        background-color: red;
+        width: 30.6666666667%; 
+    }
+
+    &>div:nth-child(2){
+        height: 500px;
+        background-color: black;
+        width: 65.3333333333%;
+    }
+}
